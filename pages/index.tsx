@@ -10,7 +10,7 @@ export default function Home() {
       <div className={styles.header}>
         <div className={styles.headertext}>
           <p className={styles.indexheader}>
-            hi, i’m saga! 👋🏻
+            hi, i’m <b>saga!</b> 👋🏻
           </p>
           <p className={styles.indexparagraph}>
             this website is intended to be somewhat of a digital
