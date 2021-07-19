@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+
+.menubar {
+    background-color: #3a3a3a;
+    color: white;
+    height: 90px;
+    font-family: 'Space Mono';
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menuname {
+    margin-right: auto;
+}
+
+.flex {
+    width: 950px;
+    display: flex;
+    align-items: center;
+}
+
+#toggleMode {
+    padding-left: 20px;
+}
+
+.links {
+    background-color: #2b2a2a;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+    align-self: flex-end;
+}
+
+.linkDiv {
+    display: flex;
+    align-items: center;
+    align-self: flex-end;
+}
