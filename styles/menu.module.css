@@ -16,7 +16,7 @@
 }
 
 .flex {
-    width: 800px;
+    width: 1000px;
     display: flex;
     align-items: center;
 }
