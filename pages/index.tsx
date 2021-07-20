@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@styles/index.module.css";
+import globalstyles from "@styles/globals.module.css";
 import profilePic from "@assets/me.jpg";
 import { useTheme } from "@context/ThemeContext";
 
@@ -11,10 +12,10 @@ export default function Home() {
       <div className={styles.container}>
         <div className={styles.header}>
           <div className={styles.headertext}>
-            <p className={styles.indexheader}>
+            <p className={`${styles.indexheader} ${globalstyles.spaceMono}`}>
               hi, i’m <b>saga!</b> 👋🏻
             </p>
-            <p className={styles.indexparagraph}>
+            <p className={`${styles.indexparagraph} ${globalstyles.poppins}`}>
               this website is intended to be somewhat of a digital
               notebook. i write about all sorts of stuff - but mostly about tech + engineering.
             </p>

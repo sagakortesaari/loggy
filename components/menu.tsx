@@ -2,13 +2,14 @@ import React, { useState } from "react";
 import styles from "@styles/menu.module.css";
 import Link from "next/link";
 import { useTheme } from "@context/ThemeContext";
+import globalstyles from "@styles/globals.module.css";
 
 export const MenuBar = () => {
   const { darkMode, setDarkMode } = useTheme();
 
   return (
     <>
-      <div className={styles.menubar}>
+      <div className={`${styles.menubar} ${globalstyles.spaceMono}`}>
         <div className={styles.flex}>
           <div id={styles.menuname}> sk. </div>
           <div className={styles.linkDiv}>
