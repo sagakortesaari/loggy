@@ -1,9 +1,10 @@
 import React, { useState } from "react";
 import styles from "@styles/menu.module.css";
 import Link from "next/link";
+import { useTheme } from "../context/ThemeContext";
 
 export const MenuBar = () => {
-  const [mode, setMode] = useState();
+  const { darkMode, setDarkMode } = useTheme();
 
   return (
     <>
