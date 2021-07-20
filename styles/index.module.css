@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
+.maincontainer {
+  display: flex;
+  justify-content: center;
+}
 
 .container {
   max-width: 1000px;
-  margin: auto;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 .indexheader {
@@ -20,7 +25,7 @@
 .header {
   display: flex;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 40px;
 }
 
 .headertext {
