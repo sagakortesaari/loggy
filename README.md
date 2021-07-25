@@ -1,6 +1,4 @@
 # loggy
-💾 ‎Personal (blog) website containing a little bit of everything 
-
-Intended to use as a personal storage of tutorials / technologies / tips 
+Personal blog/website containing tutorials, tips & stuff I want to remember. Still in development.
 
 🖥️ Developed using Next.JS & TypeScript
